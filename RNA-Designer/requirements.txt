@@ -1,0 +1,18 @@
+# Core scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Machine learning and clustering
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# RNA structure prediction
+# Note: ViennaRNA Python bindings must be installed separately
+# See: https://www.tbi.univie.ac.at/RNA/
+
+# Optional: For enhanced performance
+# numba>=0.56.0  # Uncomment for JIT compilation
+# pandas>=1.3.0   # Uncomment for data analysis features 
