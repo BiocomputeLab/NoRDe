@@ -57,7 +57,7 @@ This toolkit enables **systematic design and analysis of RNA sequence variants**
 
 ```bash
 # Clone the repository
-git clone https://github.com/kkariotis/NoRDe
+git clone https://github.com/BiocomputeLab/NoRDe
 cd NoRDe
 
 # Install dependencies
