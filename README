@@ -1,4 +1,4 @@
-# Nonrepetitive RNA Designer (NoRDe)
+# NoRDe – Nonrepetitive RNA Designer
 
 A modular, extensible Python toolkit for the **generation, filtering, grouping, analysis, and visualization** of RNA sequence variants under structural and evolutionary constraints.
 
@@ -96,7 +96,7 @@ Outputs (variants, groups, plots) will be saved in the `output/` directory.
 
 ## Command-Line Usage
 
-A command-line interface (CLI) is provided for flexible, reproducible runs.  
+A command-line interface (CLI) is provided for flexible, reproducible runs.
 You can set all major parameters directly from the command line:
 
 ```bash
@@ -117,17 +117,17 @@ python -m tool.cli --mode inverse --n_runs 5 --output output/my_variants.fasta -
 
 All workflow parameters are set in [`tool/config.py`](tool/config.py):
 
-- **Structural constraints:**  
+- **Structural constraints:**
   `WILD_TYPE_SCAFFOLD`, `LMAX_THRESHOLD`, `GC_CONTENT_RANGE`
-- **Variant generation:**  
+- **Variant generation:**
   `GENERATION_METHOD` (`auto`, `inverse`, `conservation`), `AUTO_SWITCH_LENGTH`
-- **Mutation parameters:**  
+- **Mutation parameters:**
   `CONSERVATION_ATTEMPTS`, `MUTATION_WEIGHTS`, `CONSERVATION_BIAS`
-- **Parallelization:**  
+- **Parallelization:**
   `NUM_CORES`
-- **Reproducibility:**  
+- **Reproducibility:**
   `RANDOM_SEED` (set to integer for reproducible runs)
-- **Output:**  
+- **Output:**
   `OUTPUT_DIR`
 
 ---
@@ -203,7 +203,7 @@ The toolkit provides comprehensive reproducibility features with important limit
 
 **ViennaRNA operations are NOT reproducible** due to C library limitations. This affects:
 - RNA structure prediction results
-- Inverse folding results  
+- Inverse folding results
 - Final variant sequences
 
 **What IS reproducible:**
@@ -294,14 +294,14 @@ If you use this toolkit in published research, please cite:
 
 For questions, bug reports, or feature requests, please contact:
 
-- Konstantinos Kariotis  
+- Konstantinos Kariotis
 - Email: kariotis.konst@gmail.com
 
 ---
 
 ## Acknowledgements
 
-- ViennaRNA Package authors  
+- ViennaRNA Package authors
     - Lorenz, R., Bernhart, S. H., Höner zu Siederdissen, C., Tafer, H., Flamm, C., Stadler, P. F., & Hofacker, I. L. (2011). ViennaRNA Package 2.0. Algorithms for Molecular Biology, 6(1), 1-12.
 - Open-source contributors
 
